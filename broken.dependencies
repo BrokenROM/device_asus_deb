@@ -25,7 +25,7 @@
  },
  {
    "remote":      "github",
-   "repository":  "BrokenOs/kernel_google_msm",
+   "repository":  "BrokenOs/kernel_asus_flo",
    "target_path": "kernel/google/msm",
    "branch":      "lp"
  }
