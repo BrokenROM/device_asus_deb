@@ -25,8 +25,8 @@
  },
  {
    "remote":      "github",
-   "repository":  "AD5GB/android_kernel_google_msm",
+   "repository":  "AD5GB/WickedElemental-N7",
    "target_path": "kernel/asus/deb",
-   "branch":      "wicked"
+   "branch":      "Wicked"
  }
 ]
