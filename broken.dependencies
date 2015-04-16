@@ -1,32 +1,32 @@
 [
  {
    "remote":      "github",
-   "repository":  "BrokenOs/device_asus_flo",
+   "repository":  "BrokenRoms/device_asus_flo",
    "target_path": "device/asus/flo",
-   "branch":      "lp"
+   "branch":      "lp5.1"
  },
  {
    "remote":      "github",
-   "repository":  "AICP/proprietary_vendor_broadcom",
+   "repository":  "TheLoonyBin/proprietary_vendor_broadcom",
    "target_path": "vendor/broadcom",
-   "branch":      "lp5.0"
+   "branch":      "lp5.1"
  },
  {
    "remote":      "github",
-   "repository":  "AICP/proprietary_vendor_qcom",
+   "repository":  "TheLoonyBin/proprietary_vendor_qcom",
    "target_path": "vendor/qcom",
-   "branch":      "lp5.0"
+   "branch":      "lp5.1"
  },
   {
    "remote":      "github",
-   "repository":  "AICP/proprietary_vendor_asus",
+   "repository":  "TheLoonyBin/proprietary_vendor_asus",
    "target_path": "vendor/asus",
-   "branch":      "lp5.0"
+   "branch":      "lp5.1"
  },
  {
    "remote":      "github",
-   "repository":  "AD5GB/WickedElemental-N7",
+   "repository":  "AD5GB/android_kernel_google_msm",
    "target_path": "kernel/asus/deb",
-   "branch":      "Wicked"
+   "branch":      "cm-12.1"
  }
 ]
