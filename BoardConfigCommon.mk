@@ -40,9 +40,12 @@ TARGET_KERNEL_CONFIG := wicked_deb_defconfig
 # Build with compressed odex! (thanks Ken!!)
 WITH_DEXPREOPT_COMP=true
 
+# ROM toolchain
+TARGET_GCC_VERSION := 4.9
+
 # Custom Kernel Toolchain
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilt/linux-x86_64/toolchain/Linaro-4.8/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilt/linux-x86_64/toolchain/Linaro-4.7/bin
 
 BOARD_USES_ALSA_AUDIO:= true
 BOARD_USES_LEGACY_ALSA_AUDIO:= false
