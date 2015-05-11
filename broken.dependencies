@@ -27,6 +27,6 @@
    "remote":      "github",
    "repository":  "AD5GB/kernel_asus_flo",
    "target_path": "kernel/asus/deb",
-   "branch":      "lp5.1"
+   "branch":      "lp5.1-b1"
  }
 ]
