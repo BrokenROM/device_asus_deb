@@ -323,6 +323,9 @@
     <!-- Doze: force using accelerometer as pick up sensor -->
 	  <add-resource type="bool" name="config_dozeUseAccelerometer"></add-resource>
     <bool name="config_dozeUseAccelerometer">true</bool>
+
+	  <!-- Button Brightness -->
+     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
  
 
 </resources>
