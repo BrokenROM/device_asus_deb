@@ -43,6 +43,9 @@ WITH_DEXPREOPT_COMP=true
 # ROM toolchain
 TARGET_GCC_VERSION := 4.9
 
+# Build with Oracle JDK 7
+ORACLE_JDK7 := true
+
 # Custom Kernel Toolchain
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilt/linux-x86_64/toolchain/Linaro-4.9/bin
