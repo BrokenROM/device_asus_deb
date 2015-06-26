@@ -44,7 +44,7 @@ WITH_DEXPREOPT_COMP=true
 TARGET_GCC_VERSION := 4.9
 
 # Build with Oracle JDK 7
-ORACLE_JDK7 := true
+#ORACLE_JDK7 := true
 
 # Custom Kernel Toolchain
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
