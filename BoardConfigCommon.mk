@@ -50,6 +50,9 @@ TARGET_GCC_VERSION := 4.9
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilt/linux-x86_64/toolchain/Linaro-4.9/bin
 
+# Keepin it block based for the sake of SuperSu
+BLOCK_BASED_OTA=true
+
 BOARD_USES_ALSA_AUDIO:= true
 BOARD_USES_LEGACY_ALSA_AUDIO:= false
 BOARD_USES_FLUENCE_INCALL := true
