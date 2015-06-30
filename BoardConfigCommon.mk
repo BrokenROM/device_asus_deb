@@ -48,7 +48,7 @@ TARGET_GCC_VERSION := 4.9
 
 # Custom Kernel Toolchain
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilt/linux-x86_64/toolchain/Linaro-4.9/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilt/linux-x86_64/toolchain/GCC-5.1.0/bin
 
 # Keepin it block based for the sake of SuperSu
 BLOCK_BASED_OTA=true
