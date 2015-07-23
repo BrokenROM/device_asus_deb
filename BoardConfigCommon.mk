@@ -41,14 +41,14 @@ TARGET_KERNEL_CONFIG := wicked_deb_defconfig
 WITH_DEXPREOPT_COMP=true
 
 # ROM toolchain
-TARGET_GCC_VERSION := 4.9
+##TARGET_GCC_VERSION := 4.9
 
 # Build with Oracle JDK 7
 #ORACLE_JDK7 := true
 
 # Custom Kernel Toolchain
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilt/linux-x86_64/toolchain/GCC-5.1.0/bin
+##KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+##KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilt/linux-x86_64/toolchain/GCC-5.1.0/bin
 
 # Keepin it block based for the sake of SuperSu
 BLOCK_BASED_OTA=true
