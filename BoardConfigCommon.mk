@@ -37,6 +37,12 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 TARGET_KERNEL_SOURCE := kernel/asus/deb
 TARGET_KERNEL_CONFIG := wicked_deb_defconfig
 
+#Optimizations
+BROKEIT := true
+TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
+TARGET_USE_KRAIT_BIONIC_OPTIMIZATION := true
+TARGET_USE_KRAIT_PLD_SET := true
+
 # Build with compressed odex! (thanks Ken!!)
 WITH_DEXPREOPT_COMP=true
 
