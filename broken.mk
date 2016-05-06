@@ -5,7 +5,7 @@ TARGET_SCREEN_WIDTH := 1200
 TARGET_BOOTANIMATION_HALF_RES := true
 
 # Inherit some common Broken stuff.
-$(call inherit-product, vendor/broken/config/common_full_tablet_lte.mk)
+$(call inherit-product, vendor/broken/config/common_full_tablet_wifionly.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/broken/config/nfc_enhanced.mk)
