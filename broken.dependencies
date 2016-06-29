@@ -1,21 +1,21 @@
 [
  {
    "remote":      "github",
-   "repository": "BrokenROM/device_asus_flo",
+   "repository":  "BrokenROM/device_asus_flo",
    "target_path": "device/asus/flo",
    "branch":      "m6.0.1"
  },
  {
    "remote":      "github",
-   "repository":  "AICP/proprietary_vendor_broadcom",
+   "repository":  "CrackerTeg/proprietary_vendor_broadcom",
    "target_path": "vendor/broadcom",
-   "branch":      "mm6.0"
+   "branch":      "m6.0.1"
  },
  {
    "remote":      "github",
-   "repository":  "AICP/proprietary_vendor_asus",
+   "repository":  "CrackerTeg/proprietary_vendor_asus",
    "target_path": "vendor/asus",
-   "branch":      "mm6.0"
+   "branch":      "m6.0.1"
  },
  {
    "remote":      "github",
