@@ -3,36 +3,36 @@
    "remote":      "github",
    "repository":  "BrokenROM/device_asus_flo",
    "target_path": "device/asus/flo",
-   "branch":      "m6.0.1"
+   "branch":      "n7.0"
  },
  {
    "remote":      "github",
    "repository":  "CrackerTeg/proprietary_vendor_broadcom",
    "target_path": "vendor/broadcom",
-   "branch":      "m6.0.1"
+   "branch":      "n7.0"
  },
  {
    "remote":      "github",
    "repository":  "CrackerTeg/proprietary_vendor_asus",
    "target_path": "vendor/asus",
-   "branch":      "m6.0.1"
+   "branch":      "n7.0"
  },
  {
    "remote":      "github",
    "repository":  "CrackerTeg/kernel_asus_flo",
    "target_path": "kernel/asus/flo",
-   "branch":      "m6.0.1"
+   "branch":      "n7.0"
  },
  {
    "remote":      "github",
    "repository":  "Cyanogenmod/android_external_stlport",
    "target_path": "external/stlport",
-   "branch":      "cm-13.0"
+   "branch":      "cm-14.0"
  },
  {
    "remote":      "github",
    "repository":  "BrokenROM/packages_apps_SnapdragonCamera",
    "target_path": "packages/apps/SnapdragonCamera",
-   "branch":      "m6.0.1"
+   "branch":      "n7.0"
  }
 ]
